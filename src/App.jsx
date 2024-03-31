@@ -1,15 +1,10 @@
-import {useState} from "react";
-//
-import Skills from "./components/Skills/Skills";
-
+import Users from "./components/Users/Users";
 
 function App(){
-  let [nombre, setNombre] = useState("soy foo")
 
   return (
     <>
-      <h1>{nombre} - {nombre.toUpperCase()}</h1>
-      <Skills active={"things"}/>
+      <Users />
     </>
   )
 }

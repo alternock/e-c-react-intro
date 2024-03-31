@@ -4,13 +4,6 @@ import cbThings from "./callbacks/cbThings"
 import things from "./local_data/things_data"
 
 
-//UGC          -> 
-//KOLS         -> mecanica / developer / *  
-//INFLUENCER   -> marko musica / George harris /*  
-//Attentioners -> 
-//TROLLS       -> leito
-//VADS         -> viral ads
-
 
 export default function Skills({active}){
     let ele = null
